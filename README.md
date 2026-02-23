@@ -4,8 +4,14 @@ A minimal, production-quality HTTP client CLI tool in Go — inspired by `curl`,
 
 ## Build
 
+**Linux/macOS:**
 ```bash
 go build -o fetcher .
+```
+
+**Windows:**
+```powershell
+go build -o fetcher.exe .
 ```
 
 ## Usage
